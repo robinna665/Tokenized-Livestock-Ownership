@@ -13,6 +13,10 @@ epoch = 3.1
 path = 'contracts/livestock-insurance.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.livestock-health-monitor]
+path = 'contracts/livestock-health-monitor.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
