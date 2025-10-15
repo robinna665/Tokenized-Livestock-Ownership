@@ -1,0 +1,39 @@
+[project]
+name = 'Tokenized-Livestock-Ownership'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.Tokenized-Livestock-Ownership]
+path = 'contracts/Tokenized-Livestock-Ownership.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.livestock-insurance]
+path = 'contracts/livestock-insurance.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.livestock-health-monitor]
+path = 'contracts/livestock-health-monitor.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.livestock-yield-predictor]
+path = 'contracts/livestock-yield-predictor.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.livestock-breeding-rights]
+path = 'contracts/livestock-breeding-rights.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
