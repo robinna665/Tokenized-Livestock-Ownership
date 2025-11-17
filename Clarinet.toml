@@ -25,6 +25,11 @@ epoch = 3.1
 path = 'contracts/livestock-breeding-rights.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.livestock-escrow]
+path = 'contracts/livestock-escrow.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
